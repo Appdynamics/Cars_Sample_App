@@ -83,5 +83,5 @@ It is also possible to have Maven auto deploy right into Tomcat.
 	<pre><code>
 	mvn tomcat7:redeploy
 	</code></pre>
-1. Now the app is available on "/Cars_Sample_App/angular/index.jsp" on your Tomcat
+1. Now the app is available on "/Cars_Sample_App/" on your Tomcat
 	
