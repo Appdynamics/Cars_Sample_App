@@ -5,6 +5,21 @@
         <script src="angular-route.js"></script>
         <title>Supercar Trader</title>
     </head>
+    
+    <script charset='UTF-8'>
+window['adrum-start-time'] = new Date().getTime();
+(function(config){
+    config.appKey = 'EC-AAB-JBA';
+    config.adrumExtUrlHttp = 'http://cdn.appdynamics.com';
+    config.adrumExtUrlHttps = 'https://cdn.appdynamics.com';
+    config.beaconUrlHttp = 'http://fra-col.eum-appdynamics.com';
+    config.beaconUrlHttps = 'https://fra-col.eum-appdynamics.com';
+    config.geoResolverUrlHttp = 'http://193.122.133.228/Cars_Sample_App/supercars.do';
+    config.xd = {enable : false};
+})(window['adrum-config'] || (window['adrum-config'] = {}));
+</script>
+<script src='//cdn.appdynamics.com/adrum/adrum-20.3.0.3009.js'></script>
+    
     <body>
         <div ng-app="superCars" ng-controller="mainController">
             <link rel="stylesheet" type="text/css" href="trader.css" />
